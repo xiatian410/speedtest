@@ -1,0 +1,28 @@
+# Gradle and generated build output
+.gradle/
+.kotlin/
+**/build/
+
+# Local Android SDK and IDE configuration
+local.properties
+.idea/
+*.iml
+.vscode/
+
+# Signing keys and local credentials
+*.jks
+*.keystore
+keystore.properties
+signing.properties
+.env
+.env.*
+!.env.example
+
+# Built packages, profiling data, and OS metadata
+*.apk
+*.aab
+*.ap_
+*.hprof
+.DS_Store
+Thumbs.db
+Desktop.ini
